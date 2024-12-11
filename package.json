@@ -1,0 +1,31 @@
+{
+  "name": "relaen-cli",
+  "version": "1.1.8",
+  "description": "Relaen-cli is a client for relaen to generate entity classes",
+  "main": "index.js",
+  "files": [
+    "dist/core/**/*.js",
+    "dist/core/**/*.js.map",
+    "dist/types/core/**/*.d.ts"
+  ],
+  "bin": {
+    "relaen-cli": "index.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "fieldyang <fieldyang@163.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^15.12.0",
+    "commander": "^6.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/relaen/relaen-cli.git"
+  },
+  "keywords": [
+    "relaen",
+    "relaen-cli"
+  ]
+}
